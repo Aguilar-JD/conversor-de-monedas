@@ -14,7 +14,7 @@ Este proyecto es parte del desafío de Alura Latam. Consiste en un conversor de 
 - [x] Conversión de Dólar a Peso Argentino
 - [x] Conversión de Peso Argentino a Dólar
 - [x] Conversión de Dólar a Real Brasileño
-- [ ] Historial de conversiones (Opcional)
+- [x] Historial de conversiones (Opcional)
 
 ## 💻 Tecnologías utilizadas
 - Java 17
