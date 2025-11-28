@@ -1,4 +1,4 @@
-package org.example;
+package io.github.aguilarjd.model;
 
 public record Moneda(String base_code,
                      String target_code,

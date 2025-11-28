@@ -1,4 +1,7 @@
-package org.example;
+package io.github.aguilarjd.principal;
+
+import io.github.aguilarjd.service.ConsultarMoneda;
+import io.github.aguilarjd.model.Moneda;
 
 import java.time.LocalDateTime; // NUEVO: Para la hora
 import java.time.format.DateTimeFormatter; // NUEVO: Para dar formato a la hora
