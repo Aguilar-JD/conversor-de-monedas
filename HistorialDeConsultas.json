@@ -1,0 +1,44 @@
+[
+  {
+    "base_code": "USD",
+    "target_code": "ARS",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 1450.75
+  },
+  {
+    "base_code": "ARS",
+    "target_code": "USD",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 6.893E-4
+  },
+  {
+    "base_code": "USD",
+    "target_code": "BRL",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 5.3372
+  },
+  {
+    "base_code": "USD",
+    "target_code": "BRL",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 5.3372
+  },
+  {
+    "base_code": "BRL",
+    "target_code": "USD",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 0.1874
+  },
+  {
+    "base_code": "USD",
+    "target_code": "COP",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 3743.9446
+  },
+  {
+    "base_code": "COP",
+    "target_code": "USD",
+    "time_last_update_utc": "Mon, 01 Dec 2025 00:00:01 +0000",
+    "conversion_rate": 2.671E-4
+  }
+]

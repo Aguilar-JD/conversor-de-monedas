@@ -6,12 +6,15 @@ import io.github.aguilarjd.model.Moneda;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 public class GeneradorDeArchivos {
-    public void guardarJson(Moneda moneda) throws IOException {
-         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        FileWriter escritura = new FileWriter(moneda.target_code() +".json");
-        escritura.write( gson.toJson(moneda));
+    public void guardarJson(List <Moneda> listaDeMonedas) throws IOException {
+
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+        FileWriter escritura = new FileWriter("HistorialDeConsultas"+".json");
+        escritura.write( gson.toJson(listaDeMonedas));
         escritura.close();
 
     }

@@ -14,6 +14,7 @@ public class Main {
         ConsultarMoneda consulta = new ConsultarMoneda();
 
         List<String> historial = new ArrayList<>();
+        List<Moneda> listaDeConsultas = new ArrayList<>();
 
         int opcion = 0;
 
@@ -31,7 +32,6 @@ public class Main {
             System.out.println("Elija una opción válida:");
             System.out.println("*************************************************");
 
-            // CORRECCIÓN 1: Ya no necesitamos try-catch aquí, el método se encarga solo.
             opcion = lectura.leerOpcion();
 
             if (opcion == 9) {
@@ -106,9 +106,10 @@ public class Main {
                 System.out.println("✅ " + mensajeFinal);
 
                 historial.add(fechaFormateada + " - " + mensajeFinal);
+                listaDeConsultas.add(moneda);
 
                 GeneradorDeArchivos generador = new GeneradorDeArchivos();
-                generador.guardarJson(moneda);
+                generador.guardarJson(listaDeConsultas);
 
             } catch (Exception e) {
                 System.out.println("Error al obtener la tasa de cambio: " + e.getMessage());
